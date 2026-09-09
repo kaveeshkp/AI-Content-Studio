@@ -205,6 +205,123 @@ h1 {
   color: var(--pine);
 }
 
+.sample-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 20px;
+}
+
+.chip {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 999px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-family: system-ui, sans-serif;
+  font-size: 13px;
+}
+
+.chip:hover {
+  background: var(--pine-soft);
+}
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.field span {
+  font-family: system-ui, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.field textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px;
+  background: var(--paper);
+  color: var(--ink);
+  resize: vertical;
+  line-height: 1.45;
+}
+
+.ats {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.ats-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ats-list {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ats-list li {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 14px;
+}
+
+.ats-list small {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.ats-list .ok b {
+  color: var(--pine);
+}
+
+.ats-list .bad b {
+  color: #8a4b12;
+}
+
+.primary {
+  border: 0;
+  background: var(--pine);
+  color: #f4f0e8;
+  border-radius: 10px;
+  padding: 12px 16px;
+  cursor: pointer;
+  font-family: system-ui, sans-serif;
+}
+
+.note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 @media (max-width: 860px) {
   .shell {
     flex-direction: column;
@@ -235,6 +352,10 @@ h1 {
   }
 
   .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-grid {
     grid-template-columns: 1fr;
   }
 }
