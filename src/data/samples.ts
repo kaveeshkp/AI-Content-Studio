@@ -8,12 +8,12 @@ export type SamplePack = {
 export const RESUME_SAMPLES: SamplePack[] = [
     {
         id: "intern",
-        label: "HNDIT intern → junior engineer",
+        label: "NDTIT intern → junior engineer",
         resume: `KAVEESHA BANDARA
 Negombo, Sri Lanka | student@email.com | +94 77 000 0000
 
 EDUCATION
-Higher National Diploma in Information Technology
+Information Technology
 Institute of Technology, University of Moratuwa | 2023 – Present
 
 PROJECTS
@@ -28,7 +28,7 @@ SKILLS
 Python, Java, JavaScript, HTML, CSS, SQL, Git, basic networking
 
 EXPERIENCE
-Software project work during HNDIT | 2025
+Software project work during NDTIT | 2025
 Built academic and client web projects. Responsible for testing pages.`,
         job: `Junior Software Engineer (Intern / Entry)
 Must have: JavaScript or TypeScript, HTML/CSS, Git, SQL basics, one web project.
