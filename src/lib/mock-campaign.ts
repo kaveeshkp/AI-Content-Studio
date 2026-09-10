@@ -1,4 +1,4 @@
-import type { CampaignKit, PlatformPack } from "../lib/types-campaign";
+import type { CampaignKit, PlatformPack } from "./types-campaign";
 
 function pack(
     platform: PlatformPack["platform"],
