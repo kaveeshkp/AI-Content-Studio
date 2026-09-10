@@ -37,7 +37,7 @@ export default function Resume() {
         setNote("Running review…");
 
         let result: Analysis;
-        let used = "mock";
+        let used: string;
 
         try {
             const res = await fetch("/api/review", {
